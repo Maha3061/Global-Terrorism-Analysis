@@ -9,20 +9,28 @@ Global terrorism is a significant concern, and understanding its patterns and tr
 FEATURES
 
 •	Data Preprocessing: The raw terrorism data is preprocessed to handle missing values, normalize features, and prepare it for analysis.
+
 •	Data Cleansing: Various data cleansing techniques are applied to ensure the quality and reliability of the dataset.
+
 •	Weapon Classification: Machine learning, specifically K-Nearest Neighbors (KNN) classifier, is used to classify different types of weapons used in terrorist incidents.
+
 •	Time Series Prediction: Prophet, a forecasting tool developed by Facebook, is employed to analyze the time series data and predict future trends in terrorism incidents.
 
 USAGE
 
 •	Data Preprocessing and Cleansing: Run the gtdpreprocess.ipynb notebook to preprocess and gtdcleaning.ipynb notebook to cleanse the raw terrorism data.
+
 •	Weapon Classification: Execute the weaponclassification.ipynb notebook to train the KNN classifier and classify weapons used in terrorism incidents.
+
 •	Time Series Prediction: Utilize the TimeSeriesprediction.ipynb notebook to perform time series analysis and predict future trends using Prophet.
 
 REQUIREMENTS
 
 •	Python 3.x
+
 •	Google colab
+
 •	scikit-learn
+
 •	Prophet
 
